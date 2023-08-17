@@ -1,0 +1,197 @@
+body, h1, h2, p, ul, li, table, th, td {
+    margin: 0; /* Reset margin to remove spacing */
+    padding: 0; /* Reset padding to remove spacing */
+}
+
+/* Basic styling */
+body {
+    font-family: Poppins; /* Set the font for the entire page */
+    background-color: #ff3300; /* Set background color */
+    height: 90%; /* Set the height to 90% of the parent container */
+    margin: 0; /* Reset margin */
+    justify-content: center; /* Center contents horizontally */
+    align-items: center; /* Center contents vertically */
+}
+
+header {
+    text-align: center; /* Center align the text */
+    background-color: #ff3300; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px; /* Add padding */
+    max-width: 100%; /* Set maximum width to parent's width */
+}
+
+h1 {
+    font-size: 66px; /* Set font size */
+    max-width: 100%; /* Set maximum width to parent's width */
+    text-decoration: none; /* Remove text decoration */
+    font-weight: bolder; /* Set font weight to bolder */
+}
+
+h2 {
+    font-family: Poppins; /* Set font family */
+    max-width: 100%; /* Set maximum width to parent's width */
+    color: #000; /* Set text color */
+    opacity: 0.8; /* Set opacity */
+    font-weight: 400; /* Set font weight */
+    text-decoration: none; /* Remove text decoration */
+}
+
+/*logo */
+.logo {
+    position: relative; /* Set position to relative */
+    display: inline-block; /* Display as inline block */
+    margin-top: 20px; /* Add top margin */
+    max-width: 30vw; /* Set maximum width to 30% of viewport width */
+    height: auto; /* Automatically adjust height */
+}
+
+.bus {
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto; /* Automatically adjust height */
+}
+
+.bus img {
+    width: 100%; /* Set image width to 100% of container */
+    height: auto; /* Automatically adjust height */
+}
+
+/* Apply the animation to images with the "hover-animation" class */
+.hover-animation {
+    transition: transform 0.8s ease-in-out; /* Apply a smooth transition to the transform property */
+}
+
+/* Add a scale effect on hover */
+.hover-animation:hover {
+    transform: scale(0.8); /* Scale the image to 110% of its original size */
+}
+
+/* Define the class for the div */
+div {
+    width: 80vw; /* Set width to 80% of viewport width */
+    max-width: 80vw; /* Set maximum width */
+    height: auto; /* Automatically adjust height */
+    margin: 0 auto; /* Center horizontally with auto margins */
+}
+
+nav ul {
+    list-style: none; /* Remove list bullet points */
+    display: flex; /* Display as flex container */
+    justify-content: center; /* Center contents horizontally */
+    padding: 10px 0; /* Add padding */
+    gap: 10px; /* Set gap between items */
+    max-width: 100%; /* Set maximum width to parent's width */
+    height: auto; /* Automatically adjust height */
+}
+
+/* Styling for navigation links */
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set text color to white */
+    padding: 10px 20px; /* Add padding to the top and bottom (10px) and left and right (20px) */
+}
+
+/* Styling for list items */
+li {
+    display: inline-block; /* Display list items in a row */
+    padding: 10px 20px; /* Add padding to the top and bottom (10px) and left and right (20px) */
+    background-color: #3b1910; /* Set background color for list items */
+    color: white; /* Set text color to white */
+    border-radius: 30px; /* Add rounded corners with a radius of 30px */
+    text-decoration: none; /* Remove underline from text */
+    transition: background-color 0.5s ease; /* Smooth transition for background color change */
+}
+
+/* Hover effect for list items */
+li:hover {
+    background-color: #4eb94b; /* Change background color on hover */
+}
+
+/* Styling for a centered container */
+.center-container {
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */ 
+}
+
+/* Styling for a rate card section */
+section.rate-card {
+    margin-top: 20px; /* Add margin to the top of the section */
+    background-color: #fff; /* Set background color to white */
+    padding: 20px; /* Add padding inside the section */
+    opacity: 0.8; /* Set opacity to 80% */
+    width: 80vw; /* Set width to 80% of the viewport width */
+    max-width: 80vw; /* Set maximum width to 80% of the viewport width */
+    border-radius: 10px; /* Add rounded corners with a radius of 10px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow with specified properties */
+}
+
+/* Styling for tables */
+table {
+    width: 100%; /* Set table width to 100% */
+    border-collapse: collapse; /* Collapse table borders */
+    margin-top: 10px; /* Add margin to the top of the table */
+    opacity: 0.5; /* Set opacity to 50% */
+}
+
+/* Styling for table rows */
+tbody tr {
+    border-bottom: 1px solid #0e0a0a; /* Add a bottom border to table rows */
+}
+
+/* Styling for table cells */
+table, th, td {
+    border: none; /* Remove borders from table, table header, and table data cells */
+    opacity: 0.8; /* Set opacity to 80% */
+    text-align: center; /* Center-align text in cells */
+}
+
+/* Styling for table header and data cells */
+th, td {
+    padding: 10px; /* Add padding inside cells */
+    text-align: left; /* Align text to the left within cells */
+    text-align: center; /* Center-align text in cells (overriding the previous line) */
+}
+
+/* Styling for paragraphs */
+p {
+    font-weight: bold; /* Set text to bold */
+    color: white; /* Set text color to white */
+    padding: 10px; /* Add padding to the top and bottom (10px) */
+    text-align: center; /* Center-align text within paragraphs */
+}
+
+/* Styling for the footer section */
+footer {
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+    padding: 20px; /* Add padding inside the footer */
+    margin-top: 20px; /* Add margin to the top of the footer */
+    opacity: 0.8; /* Set opacity to 80% */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out content evenly along the main axis */
+    text-align: center; /* Center-align text within the footer */
+}
+
+/* Styling for footer links */
+footer a {
+    padding: 20px; /* Add padding around links */
+    color: #fff; /* Set link text color to white */
+    text-decoration: none; /* Remove underline from links */
+    display: inline; /* Display links inline */ 
+    text-align: center; /* Center-align text within links */
+}
+
+/* Styling for social media icons */
+.social-icons a {
+    margin-left: 10px; /* Add left margin to social media icons */
+}
+
+.social-icons i {
+    font-size: 20px; /* Set font size for social media icons */
+}
+
+/* Styling for contact section */
+.contact {
+    display: inline-block; /* Display elements as inline blocks */
+    flex-direction: column; /* Arrange elements in a column within the flex container */
+}

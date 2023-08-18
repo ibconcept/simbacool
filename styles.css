@@ -93,7 +93,7 @@ nav a {
 
 /* Styling for list items */
 li {
-    display: inline-block; /* Display list items in a row */
+    display: inline-flex; /* Display list items in a row */
     padding: 10px 20px; /* Add padding to the top and bottom (10px) and left and right (20px) */
     background-color: #3b1910; /* Set background color for list items */
     color: white; /* Set text color to white */

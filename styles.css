@@ -37,6 +37,28 @@ h2 {
     text-decoration: none; /* Remove text decoration */
 }
 
+/* Responsive font size adjustments */
+@media (max-width: 576px) {
+    /* Adjust font size for smaller screens */
+    h1 {
+        font-size: 48px !important;
+    }
+    h2 {
+        font-size: 24px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjust font size for medium screens */
+    h1 {
+        font-size: 36px !important;
+    }
+    h2 {
+        font-size: 20px !important;
+    }
+}
+
+
 /*logo */
 .logo {
     position: relative; /* Set position to relative */
@@ -102,6 +124,16 @@ li {
     transition: background-color 0.5s ease; /* Smooth transition for background color change */
 }
 
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    /* Adjust padding for smaller screens */
+    nav a,
+    li {
+        padding: 6px 12px;
+    }
+}
+
 /* Hover effect for list items */
 li:hover {
     background-color: #4eb94b; /* Change background color on hover */
@@ -112,7 +144,6 @@ li:hover {
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */ 
 }
-
 /* Styling for a rate card section */
 section.rate-card {
     margin-top: 20px; /* Add margin to the top of the section */
@@ -152,6 +183,24 @@ th, td {
     text-align: center; /* Center-align text in cells (overriding the previous line) */
 }
 
+/* Responsive adjustments for the table */
+@media (max-width: 576px) {
+    section.rate-card {
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+    table {
+        margin-top: 5px; /* Adjust margin for smaller screens */
+    }
+    th, td {
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    table {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+}
 /* Styling for paragraphs */
 p {
     font-weight: bold; /* Set text to bold */

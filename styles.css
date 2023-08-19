@@ -141,12 +141,17 @@ li:hover {
 
 /* Styling for a centered container */
 .center-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */ 
 }
 /* Styling for a rate card section */
 section.rate-card {
-    margin: 20px 0; /* Add margin to the top and bottom (20px) */
+    width: 100% !important;
+    margin: 20px auto; /* Add margin to the top and bottom (20px) */
     background-color: #fff; /* Set background color to white */
     padding: 20px; /* Add padding inside the section */
     opacity: 0.8; /* Set opacity to 80% */
@@ -192,6 +197,7 @@ th, td {
 @media (max-width: 576px) {
     section.rate-card {
         padding: 5px; /* Adjust padding for smaller screens */
+        max-width: -webkit-fill-available!important;
     }
     table {
         margin-top: 5px; /* Adjust margin for smaller screens */
@@ -202,11 +208,6 @@ th, td {
     }
 }
 
-@media (max-width: 400px) {
-    table {
-        font-size: 10px; /* Adjust font size for smaller screens */
-    }
-}
 /* Styling for paragraphs */
 p {
     font-weight: bold; /* Set text to bold */

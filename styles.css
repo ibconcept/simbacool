@@ -146,13 +146,17 @@ li:hover {
 }
 /* Styling for a rate card section */
 section.rate-card {
-    margin-top: 20px; /* Add margin to the top of the section */
+    margin: 20px 0; /* Add margin to the top and bottom (20px) */
     background-color: #fff; /* Set background color to white */
     padding: 20px; /* Add padding inside the section */
     opacity: 0.8; /* Set opacity to 80% */
     max-width: 80vw; /* Set maximum width to 80% of the viewport width */
     border-radius: 10px; /* Add rounded corners with a radius of 10px */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow with specified properties */
+}
+.rate-card h2 {
+    text-align: center; /* Center-align text */
+    margin: 10px 0; /* Add bottom margin */
 }
 
 /* Styling for tables */
@@ -161,6 +165,8 @@ table {
     border-collapse: collapse; /* Collapse table borders */
     margin-top: 10px; /* Add margin to the top of the table */
     opacity: 0.5; /* Set opacity to 50% */
+    font-family: Poppins; /* Set font family */
+
 }
 
 /* Styling for table rows */
@@ -189,6 +195,7 @@ th, td {
     }
     table {
         margin-top: 5px; /* Adjust margin for smaller screens */
+        font-size: 12px; /* Adjust font size for smaller screens */
     }
     th, td {
         padding: 5px; /* Adjust padding for smaller screens */
@@ -197,7 +204,7 @@ th, td {
 
 @media (max-width: 400px) {
     table {
-        font-size: 12px; /* Adjust font size for smaller screens */
+        font-size: 10px; /* Adjust font size for smaller screens */
     }
 }
 /* Styling for paragraphs */
@@ -236,6 +243,8 @@ footer a {
     flex:1;
     flex-wrap: wrap;
     font-size: 20px; /* Set font size for social media icons */
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-end; /* Align icons to the right */
 }
 
 /* Styling for contact section */

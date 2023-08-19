@@ -150,7 +150,6 @@ section.rate-card {
     background-color: #fff; /* Set background color to white */
     padding: 20px; /* Add padding inside the section */
     opacity: 0.8; /* Set opacity to 80% */
-    width: 80vw; /* Set width to 80% of the viewport width */
     max-width: 80vw; /* Set maximum width to 80% of the viewport width */
     border-radius: 10px; /* Add rounded corners with a radius of 10px */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow with specified properties */
@@ -218,29 +217,31 @@ footer {
     opacity: 0.8; /* Set opacity to 80% */
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space out content evenly along the main axis */
+    align-items: baseline;
     text-align: center; /* Center-align text within the footer */
+    width: auto;
 }
 
 /* Styling for footer links */
 footer a {
-    padding: 20px; /* Add padding around links */
     color: #fff; /* Set link text color to white */
     text-decoration: none; /* Remove underline from links */
     display: inline; /* Display links inline */ 
     text-align: center; /* Center-align text within links */
+    padding:10px
 }
 
 /* Styling for social media icons */
-.social-icons a {
-    margin-left: 10px; /* Add left margin to social media icons */
-}
-
-.social-icons i {
+.social-icons {
+    flex:1;
+    flex-wrap: wrap;
     font-size: 20px; /* Set font size for social media icons */
 }
 
 /* Styling for contact section */
 .contact {
-    display: inline-block; /* Display elements as inline blocks */
-    flex-direction: column; /* Arrange elements in a column within the flex container */
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
